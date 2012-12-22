@@ -1,13 +1,16 @@
+<?php
+  require_once('./core/lib/ctrl.php');
+?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{%title}</title>
+		<title><?= SEITENTITEL; ?></title>
 
 		<meta charset="utf-8">
 		<meta name="keywords" content="{%keywords}">
 		<meta name="description" content="{%description}">
 		<meta name="publisher" content="{%publisher}">
-		<meta name="language" content="de">
+		<meta name="language" content="<?= LANG; ?>">
 		<meta name="robots" content="index,follow">
 		
 		<!-- iOS Support -->
@@ -17,7 +20,7 @@
 		<link rel="apple-touch-icon" sizes="114x114" href="{%imgurl@2x}" />
 		<!-- iOS Support -->		
 		
-		<link rel="stylesheet/less" type="text/css" href="./core/css/UI.less">
+		<link rel="stylesheet/less" type="text/css" href="./app/css/UI.less">
 
 		<!-- Google Webfont Support -->
 		<link href="http://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
@@ -36,7 +39,7 @@
 		<script src="http://lesscss.googlecode.com/files/less-1.3.0.min.js"></script>
 		<!-- @end -->
 
-    <script src="./core/js/jquery.plugin.js"></script>
+    <script src="./plugins/jquery.plugin.js"></script>
 
     <!--[if lt IE 9]>
     	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
