@@ -1,2 +1,2 @@
 RewriteEngine on 
-RewriteRule ^(.*).html$ $1.php
+RewriteRule ^(.*)/$ $1.php

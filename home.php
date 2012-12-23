@@ -20,7 +20,7 @@
 		<link rel="apple-touch-icon" sizes="114x114" href="{%imgurl@2x}" />
 		<!-- iOS Support -->		
 		
-		<link rel="stylesheet/less" type="text/css" href="./app/css/UI.less">
+		<link rel="stylesheet/less" type="text/css" href="<?= WEBROOT; ?>app/css/UI.less">
 
 		<!-- Google Webfont Support -->
 		<link href="http://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
@@ -39,7 +39,7 @@
 		<script src="http://lesscss.googlecode.com/files/less-1.3.0.min.js"></script>
 		<!-- @end -->
 
-    <script src="./plugins/jquery.plugin.js"></script>
+    <script src="<?= WEBROOT; ?>plugins/jquery.plugin.js"></script>
 
     <!--[if lt IE 9]>
     	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
