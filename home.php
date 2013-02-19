@@ -48,7 +48,7 @@
 	</head>
 	<body>
 	 
-<?php /* ____ footer tpl */ include("app/tpl/header.php"); ?>
+<?php /* ____ footer tpl */ include("app/tpl/header.tpl"); ?>
 
 	 <section>
   	<?php 
@@ -57,7 +57,7 @@
   	 ?>
 	 </section>
 	 
-<?php /* ____ footer tpl */ include("app/tpl/footer.php"); ?>
+<?php /* ____ footer tpl */ include("app/tpl/footer.tpl"); ?>
 	 
 	</body>
 </html>

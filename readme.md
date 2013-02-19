@@ -7,7 +7,7 @@
 - php
 - and some Google Webfonts
 
-## version 0.3
+## version 0.3a
 WIP
 
 made with ❤ by shiftctrl—

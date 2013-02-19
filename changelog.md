@@ -1,3 +1,6 @@
+# version 0.3a
+tpl file extension support via htaccess
+
 # version 0.3
 tpl folder for header and footer template
 
