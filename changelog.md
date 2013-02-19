@@ -1,3 +1,6 @@
+# version 0.3
+tpl folder for header and footer template
+
 # version 0.2
 New file structure optimized for your own template engine
 
