@@ -1,4 +1,4 @@
-# html5ctrl is a minimal webdevelopment framework to kickstart a website oder webapp. 
+# html5ctrl is a minimal webdevelopment framework to kickstart a website or webapp. 
 
 ## it's based on 
 - html5
@@ -7,7 +7,7 @@
 - php
 - and some Google Webfonts
 
-## version 0.3a
+## version 0.4a
 WIP
 
 made with ❤ by shiftctrl—
