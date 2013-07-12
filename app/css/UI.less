@@ -42,12 +42,20 @@ LESS syntax clientseittig
 /* @end */
 
 /* @group UI CSS */
-/*
-CSS
-*/
+
+/* some snipsl */
+
+::selection 	 	{background: #fffbda;}
+::-moz-selection 	{background: #fffbda;}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+
+
+/* Website @media query */
 
 body{
   width: 100%;
+  background-color: #dadada;
 }
 
 header, footer, section{
@@ -72,3 +80,34 @@ section article.txt p {
 }
 
 /* @end */
+
+/* iPad @media query */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	body {
+	width: 1024px;
+	background-color: #d0d0d0;
+}
+}
+
+/* iPhone Portrait + Landscape @media query */
+@media only screen and (max-width: 767px) {
+	
+	body {
+		width: 320px;
+		background-color: #c0c0c0;
+	}
+	
+}
+
+/* Retina Support @media query*/
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+		background-color: #a0a0a0;
+	}
+	
+}
+
