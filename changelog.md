@@ -1,3 +1,6 @@
+# version 0.4b
+some HTML syntax corrections for W3C validation
+
 # version 0.3a
 tpl file extension support via htaccess
 
