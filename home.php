@@ -2,7 +2,7 @@
   require_once('./core/lib/ctrl.php');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="<?= LANG; ?>">
 	<head>
 		<title><?= SEITENTITEL; ?></title>
 
@@ -11,7 +11,6 @@
 		<meta name="keywords" content="{%keywords}">
 		<meta name="description" content="{%description}">
 		<meta name="publisher" content="{%publisher}">
-		<meta name="language" content="<?= LANG; ?>">
 		<meta name="robots" content="index,follow">
 		
 		<!-- iOS Support -->
