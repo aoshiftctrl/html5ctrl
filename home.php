@@ -14,7 +14,7 @@
 		<meta name="robots" content="index,follow">
 		
 		<!-- iOS Support -->
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0;" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<link rel="apple-touch-icon" sizes="72x72" href="{%imgurl}" />
 		<link rel="apple-touch-icon" sizes="114x114" href="{%imgurl@2x}" />
