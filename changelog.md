@@ -1,3 +1,6 @@
+# version 0.6
+css box-sizing integration
+
 # version 0.5b
 some meta tag syntax corrections for W3C validation
 
