@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Rej> -- <making things> -- <@aoshiftctrl>
+
+# THANKS
+
+    <Eric Meyer>
+    <@Ionicframework>
+    <Google>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Javascript

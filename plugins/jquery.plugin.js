@@ -1,5 +1,3 @@
-$(document).ready(function(){
-
-  //alert("hello");
-
+$(function(){
+	// code something amazing
 });

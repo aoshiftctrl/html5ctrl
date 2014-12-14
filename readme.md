@@ -2,12 +2,12 @@
 
 ## it's based on 
 - html5
-- css (less syntax)
-- jquery or zepto
+- css
+- jquery
 - php
 - and some Google Webfonts
 
-## version 0.5b
+## version 0.7
 WIP
 
-made with ❤ by shiftctrl—
+made with ❤ by shiftctrl

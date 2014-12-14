@@ -1,4 +1,9 @@
-RewriteEngine on 
-RewriteRule ^(.*)/$ $1.php
+RewriteEngine On
 
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/d]+)/?$ app.php?site=$1 [L,QSA]
+
+# Use tpl extension for PHP code
 AddType application/x-httpd-php .tpl
