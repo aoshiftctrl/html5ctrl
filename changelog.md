@@ -23,4 +23,4 @@ We recommend to replace the jquery or zepto src links with a downloaded version 
 WIP
 
 
-made with ❤ by shiftctrl—
+made with ❤ by shiftctrl
