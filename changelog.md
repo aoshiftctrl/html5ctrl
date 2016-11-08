@@ -1,3 +1,6 @@
+# version 0.9
+Hidden sites in the navigation are now possible
+
 # version 0.8
 New controller and routes for site navigation
 Better code comments

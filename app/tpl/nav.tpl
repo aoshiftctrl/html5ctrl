@@ -6,7 +6,9 @@
        * @filesource    ./core/routes.php
        */
       foreach($Sites as $NavSite){
-        echo "<li><a href=\"". WEBROOT . $NavSite['url'] ."/\" title=\"". $NavSite["site_title"] ."\">" .$NavSite['site_title']. "</a></li>";
+        if ($NavSite['display'] != "hidden"){
+          echo "<li><a href=\"". WEBROOT . $NavSite['url'] ."/\" title=\"". $NavSite["site_title"] ."\">" .$NavSite['site_title']. "</a></li>";
+        }
       } ?>
   </ul>
   <span class="clearfix"></span>

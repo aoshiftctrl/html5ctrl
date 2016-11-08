@@ -19,15 +19,24 @@
               "url" => "home",
               "site_title" => "Startseite",
               "site_key" => "homepage",
-              "site_description" => "A bootstrap homepage"),
+              "site_description" => "A bootstrap homepage",
+              "display" => ""),
     "cupcake" => array(
               "url" => "cupcake",
               "site_title" => "Cupcake",
               "site_key" => "Yummy",
-              "site_description" => "A cupcake"),
+              "site_description" => "A cupcake",
+              "display" => ""),
+    "panettone" => array(
+              "url" => "panettone",
+              "site_title" => "Panettone",
+              "site_key" => "italien",
+              "site_description" => "A special cake",
+              "display" => "hidden"),
     "coffee" => array(
               "url" => "coffee",
               "site_title" => "Coffee",
               "site_key" => "Hot",
-              "site_description" => "A hot coffee")
+              "site_description" => "A hot coffee",
+              "display" => "")
   );
