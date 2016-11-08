@@ -1,3 +1,7 @@
+# version 0.8
+New controller and routes for site navigation
+Better code comments
+
 # version 0.7
 New content structure for the template files, now loading from ./sites/ folder. New url rewrite rules for vanity urls.
 

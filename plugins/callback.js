@@ -1,3 +1,0 @@
-function callback(){
-  //do something
-}

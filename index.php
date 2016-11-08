@@ -1,3 +1,2 @@
 <?php
-  require_once('./core/lib/ctrl.php');
-?>
+  require('./core/ctrl.php');
