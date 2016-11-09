@@ -1,0 +1,82 @@
+//
+// media queries
+// @mq
+$MQ-iPhone: 568px
+$MQ-iPadP: 768px
+$MQ-iPadL: 1024px
+
+// @padding
+// @margin
+$UIMargin: 44px
+$UIPadding: 15%
+
+// UI colors
+$UIColor: #673ab7
+$UIColorAkzent: #68efad
+$UITextColor: #212121
+
+// reset.css from eric meyers
+@import reset
+// Fonts
+@import fonts
+
+// default styles
+strong
+  font:
+    weight: bold
+em
+  font:
+    style: italic
+
+// @link @href
+a
+  text-decoration: none
+a:link,
+a:visited
+  color: $UIColor
+  text-decoration: none
+a:hover
+  color: #000000
+
+html, body
+  width: 100%
+  height: 100%
+  color: $UITextColor
+
+header
+  padding: $UIMargin/2 $UIPadding
+  +UIText(10pt)
+header
+  nav
+    ul
+      li
+        +UIText(12pt)
+        line-height: 1.45em
+section
+  article
+    padding: $UIMargin/2 $UIPadding
+  article
+    h1
+      +UIFont(18pt)
+      margin:
+        bottom: $UIMargin/4
+    p,
+    blockquote,
+    cite
+      +UIText(14pt)
+      line-height: 1.3em
+      margin:
+        bottom: $UIMargin/4
+    cite
+      font:
+        size: 9pt
+      letter-spacing: 0.02em
+    p
+      a
+        color: $UIColor
+
+// @footer
+footer
+  padding: $UIMargin/2 $UIPadding
+  +UIText(10pt)
+  line-height: 1.35em

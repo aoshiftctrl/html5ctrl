@@ -1,3 +1,6 @@
+# version 1.0
+Gulp.js build proccess support w/ SASS, js, and browsersync.io
+
 # version 0.9
 Hidden sites in the navigation are now possible
 

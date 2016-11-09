@@ -50,15 +50,8 @@
 		<link rel="stylesheet" type="text/css" href="<?= WEBROOT; ?>app/css/ui.min.css">
 		<link type="text/plain" rel="author" href="<?= WEBROOT; ?>humans.txt">
 		<!-- Google Webfont Support -->
-		<link href="http://fonts.googleapis.com/css?family=Karla" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<!-- end Google Webfont Support -->
-
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src="<?= WEBROOT; ?>plugins/jquery.plugin.js"></script>
-
-    <!--[if lt IE 9]>
-    	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
 	</head>
 	<body>
@@ -66,9 +59,9 @@
 <?php
   /**
    * Renders the header template file from the tpl directory
-   * @filesource  app/tpl/header.tpl
+   * @filesource  app/tpl/header.php
    */
-  include("app/tpl/header.tpl"); ?>
+  include("app/tpl/header.php"); ?>
 
    <section>
   	<?php
@@ -91,9 +84,9 @@
    <?php
      /**
       * Renders the footer template file from the tpl directory
-      * @filesource  app/tpl/footer.tpl
+      * @filesource  app/tpl/footer.php
       */
-     include("app/tpl/footer.tpl"); ?>
-
+     include("app/tpl/footer.php"); ?>
+  <script src="<?= WEBROOT; ?>app/js/app.min.js"></script>
 	</body>
 </html>
