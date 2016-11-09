@@ -46,7 +46,7 @@
 	$Url = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 	$UrlApp = explode("/", $Url);
   // configure this array key to your webserver folder structure
-  $App = $UrlApp[3];
+  $App = $UrlApp[2];
 
 
   /**
