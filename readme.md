@@ -16,7 +16,7 @@ If you want to use the gulp build process you’ll need to install node.js first
 ## npm package manager
 Install the npm dependencies with
 ```
-npm install —save-dev
+npm install --save-dev
 ```
 For more information on npm go to https://www.npmjs.com and read the documentation.
 
