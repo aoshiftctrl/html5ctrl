@@ -37,4 +37,8 @@ gulp serve
 ### version 1.0
 WIP
 
+Next deployment
+- subnavi
+- content pages
+
 made with <3 by shiftctrl
