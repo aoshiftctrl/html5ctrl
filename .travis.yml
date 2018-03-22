@@ -1,12 +1,5 @@
-# notifications
-notifications:
-  email: false
-  slack:
-      on_success: always
-      on_failure: always
-
 # installs
-install: true
+# install: true
 
 #language
 language: php
@@ -19,5 +12,26 @@ php:
 # °_°
 env: # important!
 # °_°
+addons:
+  apt:
+    packages:
+    - apache2
+    - libapache2-mod-fastcgi
+
 before_script:
-  - gulp build
+  - lsb_release -a
+  - lscpu
+
+install:
+    - composer install
+
+scripts:
+  - ".travis-build/phplint ."
+#  - phpunit
+
+# notifications
+notifications:
+  email: false
+  slack:
+      on_success: always
+      on_failure: always
