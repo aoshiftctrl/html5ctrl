@@ -13,10 +13,11 @@ language: php
 
 #php versions
 php:
-  - '7.1.12'
+  - '7.1.7'
   - '7.2.1'
 
 # °_°
 env: # important!
 # °_°
-script: phpunit
+before_script:
+  - gulp build
