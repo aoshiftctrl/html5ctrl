@@ -21,8 +21,8 @@ before_script:
   - lsb_release -a
   - lscpu
 
-scripts:
-  - phpunit
+# scripts:
+#  - phpunit
 
 # notifications
 notifications:
