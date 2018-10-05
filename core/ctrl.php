@@ -5,16 +5,14 @@
    * PHP version 5
    * @filesource  ./core/ctrl.php
    * @package     ctrl
-   * @license     CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
    * @author      Rej <rej>
-   * @link        https://github.com/aoshiftctrl/html5ctrl
    */
   /**
    * PHP error handling
    * remove comments slashes // for development mode
    */
-  // error_reporting(~0);
-  // ini_set('display_errors', 1);
+  //error_reporting(~0);
+  //ini_set('display_errors', 1);
 
 
   /**
@@ -27,8 +25,8 @@
    */
   define ("WEBROOT", "../");
   define ("HOME_DIRECTORY", "home");
-  define("SEITENTITEL", "html5ctrl - a minimal html5 framework");
-  define("LANG","de");
+  define("SEITENTITEL", "html5ctrl - a miniml html framework");
+  define("LANG","en");
 
 
   /**
@@ -46,7 +44,7 @@
 	$Url = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 	$UrlApp = explode("/", $Url);
   // configure this array key to your webserver folder structure
-  $App = $UrlApp[1];
+  $App = $UrlApp[2];
 
 
   /**
